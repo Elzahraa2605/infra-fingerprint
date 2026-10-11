@@ -1,0 +1,149 @@
+[
+  {
+    "host": "127.0.0.1",
+    "ssh_port_open": false,
+    "ssh_banner": "",
+    "http_port_open": false,
+    "http_status": "",
+    "http_server_header": "",
+    "http_headers_hash": "",
+    "http_body_hash": "",
+    "http_meta_tags": [],
+    "https_port_open": false,
+    "tls_cert_subject": "",
+    "tls_cert_issuer": "",
+    "favicon_hash": "",
+    "favicon_mmh3": "",
+    "jarm": "",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "ssh: Connection refused",
+      "http: Connection refused",
+      "jarm: no completed TLS handshake"
+    ]
+  },
+  {
+    "host": "[2001:db8::1]",
+    "ssh_port_open": false,
+    "ssh_banner": "",
+    "http_port_open": false,
+    "http_status": "",
+    "http_server_header": "",
+    "http_headers_hash": "",
+    "http_body_hash": "",
+    "http_meta_tags": [],
+    "https_port_open": true,
+    "tls_cert_subject": "dummy_cert_subject_1",
+    "tls_cert_issuer": "",
+    "favicon_hash": "",
+    "favicon_mmh3": "",
+    "jarm": "00000000000000000000000000000000000000000000000000000000000000",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "ssh: timed out"
+    ]
+  },
+  {
+    "host": "[::1]",
+    "ssh_port_open": false,
+    "ssh_banner": "",
+    "http_port_open": false,
+    "http_status": "",
+    "http_server_header": "",
+    "http_headers_hash": "",
+    "http_body_hash": "",
+    "http_meta_tags": [],
+    "https_port_open": false,
+    "tls_cert_subject": "",
+    "tls_cert_issuer": "",
+    "favicon_hash": "",
+    "favicon_mmh3": "",
+    "jarm": "",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "ssh: Connection refused",
+      "http: Connection refused"
+    ]
+  },
+  {
+    "host": "example-service-node.local",
+    "ssh_port_open": false,
+    "ssh_banner": "",
+    "http_port_open": true,
+    "http_status": "200",
+    "http_server_header": "nginx",
+    "http_headers_hash": "a1b2c3d4e5f67890",
+    "http_body_hash": "0987654321fedcba",
+    "http_meta_tags": [
+      "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>",
+      "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "<title>Example Service Dashboard</title>",
+      "<meta name='robots' content='noindex, nofollow' />",
+      "<meta name=\"description\" content=\"Default secure gateway portal for internal network diagnostics and status monitoring.\" />",
+      "<meta property=\"og:type\" content=\"website\" />",
+      "<meta property=\"og:title\" content=\"Gateway Portal Dashboard\" />",
+      "<meta property=\"og:description\" content=\"Default secure gateway portal for internal network diagnostics.\" />",
+      "<meta property=\"og:url\" content=\"https://example-service-node.local/\" />",
+      "<meta property=\"og:site_name\" content=\"Internal Gateway\" />"
+    ],
+    "https_port_open": true,
+    "tls_cert_subject": "dummy_cert_subject_2",
+    "tls_cert_issuer": "",
+    "favicon_hash": "1234567890abcdef1234567890abcdef",
+    "favicon_mmh3": "123456789",
+    "jarm": "11d40d40d00040d1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "ssh: timed out"
+    ]
+  },
+  {
+    "host": "test-target.internal",
+    "ssh_port_open": false,
+    "ssh_banner": "",
+    "http_port_open": false,
+    "http_status": "",
+    "http_server_header": "",
+    "http_headers_hash": "",
+    "http_body_hash": "",
+    "http_meta_tags": [],
+    "https_port_open": false,
+    "tls_cert_subject": "",
+    "tls_cert_issuer": "",
+    "favicon_hash": "abcdef1234567890abcdef1234567890",
+    "favicon_mmh3": "987654321",
+    "jarm": "",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "ssh: timed out",
+      "http: Connection timed out"
+    ]
+  },
+  {
+    "host": "scan-target-demo.org",
+    "ssh_port_open": true,
+    "ssh_banner": "SSH-2.0-OpenSSH_8.9",
+    "http_port_open": false,
+    "http_status": "",
+    "http_server_header": "",
+    "http_headers_hash": "",
+    "http_body_hash": "",
+    "http_meta_tags": [],
+    "https_port_open": false,
+    "tls_cert_subject": "",
+    "tls_cert_issuer": "",
+    "favicon_hash": "",
+    "favicon_mmh3": "",
+    "jarm": "",
+    "c2_matches": [],
+    "risk_score": 0,
+    "error_notes": [
+      "http: Read timed out"
+    ]
+  }
+]

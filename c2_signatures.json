@@ -1,0 +1,24 @@
+{
+  "Cobalt Strike (possible, heuristic - JARM is NOT CS-specific)": {
+    "description": "Commonly cited JARM value. Note: This is actually the JARM of the underlying Java TLS stack and can appear on legitimate Java applications. Treat as a low-weight lead only.",
+    "jarm_in": ["07d14d16d21d21d07c42d41d00041d24a458a375eef0c576d23a7bab9a9fb1"],
+    "weight": 1
+  },
+  "Generic exposed admin/login panel": {
+    "description": "Broad heuristic based on title/meta content suggesting an exposed admin or login panel.",
+    "meta_contains": ["admin", "login", "dashboard"],
+    "weight": 1
+  },
+  "Sliver C2 (possible, heuristic)": {
+    "description": "Placeholder for known Sliver indicators. Add current observed values from your own research.",
+    "tls_subject_contains": [],
+    "jarm_in": [],
+    "weight": 2
+  },
+  "Mythic C2 (possible, heuristic)": {
+    "description": "Placeholder for Mythic indicators. Highly customizable framework.",
+    "favicon_hash_in": [],
+    "http_header_hash_in": [],
+    "weight": 2
+  }
+}

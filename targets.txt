@@ -1,0 +1,14 @@
+# ============================================================
+# targets.example.txt
+# ============================================================
+# Write one target per line (IP address or domain name).
+# Lines starting with # are ignored.
+#
+# Examples:
+# 192.168.1.10
+# example.com
+# 2001:db8::1
+#
+# Replace the examples below with the hosts you are
+# authorized to scan, then save the file as targets.txt
+# ============================================================
