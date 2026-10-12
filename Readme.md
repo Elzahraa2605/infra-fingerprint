@@ -6,7 +6,7 @@ A modular Python tool built for **Threat Intelligence Analysts**, **Incident Res
 
 Here is a preview of InfraScout executing a deep scan across multi-protocol targets:
 
-![Host Fingerprint Summary](Screenshot_2026-10-12_022523.png)
+!([Host Fingerprint Summary](Screenshot%202026-10-12%20022523.png)
 *Execution showing Host Fingerprint Summary, SSH Banners, JARM, Favicon Hashes, and Correlation Heatmaps.*
 
 ![Correlation & Output](assets/correlation_and_output.jpg)
