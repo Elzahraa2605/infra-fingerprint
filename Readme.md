@@ -116,10 +116,5 @@ python infrascout.py --targets targets.txt --ports 22,80,443 --delay 0.5 --threa
 ]
 ```
 
-## 🤝 Contributing
+## 🤝 Thanks
 
-Pull requests, signature contributions, and feature suggestions are welcome! Feel free to open an issue or submit a PR.
-
-## 📜 License
-
-This project is licensed under the MIT License.
