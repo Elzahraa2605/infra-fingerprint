@@ -9,7 +9,7 @@ Here is a preview of InfraScout executing a deep scan across multi-protocol targ
 ![Host Fingerprint Summary](Screenshot_2026-10-12_022523.png)
 *Execution showing Host Fingerprint Summary, SSH Banners, JARM, Favicon Hashes, and Correlation Heatmaps.*
 
-![Correlation & Output](assets/correlation_and_output.jpg)
+![Correlation & Output](Screenshot_2026-10-12_025150.png)
 *Correlation matrix, Auto-Clustering evaluation, and structured JSON output generation.*
 
 ## 🌟 Key Features
